@@ -4,7 +4,7 @@ header{
     background-position: center;
     min-height: 1000px;
 }
-.section{
+#section{
     padding-top: 4vw ;
     padding-bottom: 4vw;
 }
@@ -18,4 +18,9 @@ header{
 }
 .tabs .tab a:focus, .tabs .tab a:focus.active{
     background: transparent;
+}
+@media only screen and (max-width: 600px) {
+    .parallax-container {
+        height: 150px;
+    }
 }
